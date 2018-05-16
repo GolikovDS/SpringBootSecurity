@@ -15,7 +15,7 @@ public class MainController {
 
     @RequestMapping(value = { "/", "/welcome" }, method = RequestMethod.GET)
     public String welcomePage(Model model) {
-        model.addAttribute("title", "Welcome it's git ");
+        model.addAttribute("title", "Welcome it's git MyTestBranch");
         model.addAttribute("message", "This is welcome page!");
         return "welcomePage";
     }
